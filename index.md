@@ -33,3 +33,6 @@ One last thing of note is that we removed the survival and balancing rewards for
 Reward Function:
  - +1 for each frame consuming
  - 100 on death
+ 
+ <iframe src="https://player.vimeo.com/video/358842309" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
