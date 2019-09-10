@@ -37,3 +37,17 @@ One last thing of note is that we removed the survival and balancing rewards for
 Reward Function:
  - +1 for each frame consuming
  - 100 on death
+ 
+ 
+# Fight Club
+
+<iframe src="https://player.vimeo.com/video/358939948" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+Another Multi-Network Simulation
+This experiment rewards agents only for consuming the mcguffin. One of the flaws of our current simulation approach is that agents that do not learn to survive have less experience to train on. We can see this in the agent that throws itself off of the planet every time. Agents here have learned to consume the macguffin in its seed state, but shy away from it once it grows. This is likely due to the weight influence that it has on the planet.
+
+One thing to note is that the spingy animation of the agents and the interlocking of their joints does not have an impact on their movement and actions. The agents are still capsules that stand orthagonally from the surface of the world.
+
+Reward function:
++1 per frame for consuming
+-10 on death
