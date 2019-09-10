@@ -36,7 +36,7 @@ One last thing of note is that we removed the survival and balancing rewards for
 
 Reward Function:
  - +1 for each frame consuming
- - 100 on death
+ - -100 on death
  
  
 # Fight Club
