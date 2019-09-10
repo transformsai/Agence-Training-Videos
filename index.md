@@ -51,5 +51,5 @@ Two notes:
 2) The pause that the agents undergo when the mcguffen is being spawned is forced on the agents
 
 Reward function:
-+1 per frame for consuming
--10 on death
+ - +1 per frame for consuming
+ - -10 on death
