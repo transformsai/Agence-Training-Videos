@@ -46,7 +46,9 @@ Reward Function:
 Another Multi-Network Simulation
 This experiment rewards agents only for consuming the mcguffin. Agents in this simulation are a lot more agressive, and start the simulation off by fighting consitently. One of the flaws of our current simulation approach is that agents that do not learn to survive have less experience to train on. We can see this in the agent that throws itself off of the planet every time. Agents here have learned to consume the macguffin in its seed state, but shy away from it once it grows. This is likely due to the weight influence that it has on the planet.
 
-One thing to note is that the spingy animation of the agents and the interlocking of their joints does not have an impact on their movement and actions. The agents are still capsules that stand orthagonally from the surface of the world.
+Two notes:
+1) The spingy animation of the agents and the interlocking of their joints does not have an impact on their movement and actions. The agents are still capsules that stand orthagonally from the surface of the world.
+2) The pause that the agents undergo when the mcguffen is being spawned is forced on the agents
 
 Reward function:
 +1 per frame for consuming
