@@ -2,7 +2,9 @@
 
 <iframe src="https://player.vimeo.com/video/358842309" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-Single-Network Training. Simulations run with this model display similar behaviour. Agents tend to clump around a specific section of the planet, and move together in the same direction. This may be due to them sharing replicas of the same network, and would therefore see similar Q-values for their actions. Of note is that any Agents that separate from the group tend to die fairly quickly (See 0:20 in video) . Finally, when a McGuffin is added to the scene, Agents in this model begin attacking other Agents (See 1:40 in video). This is very close to the narrative drama that we were hoping to find in the simulations
+Single-Network Training
+
+Simulations running with a Single-Network Training model display similar behaviour to one another. Agents tend to clump around a specific section of the planet, and move together in the same direction. This may be due to them sharing replicas of the same network, and would therefore see similar Q-values for their actions. Of note is that any Agents that separate from the group tend to die fairly quickly (See 0:20 in video) . Finally, when a McGuffin is added to the scene, Agents in this model begin attacking other Agents (See 1:40 in video). This is very close to the narrative drama that we were hoping to find in the simulations
 
 One last thing of note is that we removed the survival and balancing rewards for this training example. Here, Agents are only rewarded while nurturing the McGuffin.
 
